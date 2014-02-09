@@ -7,30 +7,74 @@ Each test is dict with
     "explanation" -- not necessary key, it's using for additional info in animation.
 """
 
-
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": 15,
+            "answer": "Fizz Buzz"
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
-        }
+            "input": 6,
+            "answer": "Fizz"
+        },
+        {
+            "input": 10,
+            "answer": "Buzz"
+        },
+        {
+            "input": 7,
+            "answer": "7"
+        },
+
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": "45",
+            "answer": "Fizz Buzz"
+        },
+
+        {
+            "input": "46",
+            "answer": "46"
+        },
+
+        {
+            "input": "47",
+            "answer": "47"
+        },
+
+        {
+            "input": "48",
+            "answer": "Fizz"
+        },
+
+        {
+            "input": "49",
+            "answer": "49"
+        },
+
+        {
+            "input": "50",
+            "answer": "Buzz"
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
-        }
+            "input": "999",
+            "answer": "Fizz"
+        },
+
+        {
+            "input": "1000",
+            "answer": "Buzz"
+        },
+
+        {
+            "input": "989",
+            "answer": "989"
+        },
+
+        {
+            "input": "990",
+            "answer": "Fizz Buzz"
+        },
     ]
 }
