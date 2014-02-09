@@ -1,39 +1,50 @@
 <p>
-    <i>( Describe task in general )</i>
+    Fizz buzz is a word game for children to teach them about division. Let's learn computers.
 </p>
 
 <p>
-    Sum two passed ints
+    You should write a function that receive a positive integer and returns:<br>
+    "Fizz Buzz" if the number is divisible by 3 and by 5,<br>
+    "Fizz" if the number is divisible by 3,<br>
+    "Buzz" if the number is divisible by 5 and <br>
+    the number as a string for other cases.<br>
 </p>
 
-<p style="text-align: center;">
-    <img class="for_info_only" title="example" src="{{MEDIA}}example.png" alt="example" width="392px"/>
-    <img class="for_editor_only" title="example" src="{{MEDIA}}example.png" alt="example" width="380px"/>
+<p>
+    <strong>Hints: </strong> You can easily solve this task with:
+    {% if "python 2" in interpreter|lower %}
+    <a href="http://docs.python.org/2/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex">% operator</a> and
+    <a href="http://docs.python.org/2/tutorial/introduction.html#strings">string conversion</a>.
+    {% else %}
+    <a href="http://docs.python.org/3/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-long-complex">% operator</a> and
+    <a href="http://docs.python.org/3/tutorial/introduction.html#strings">string conversion</a>.
+    {% endif %}
 </p>
 
-<p><i>( Explain input and output values )</i></p>
 <p>
     <strong>Input: </strong> Two arguments. Both are int
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Output: </strong> Int.
 </p>
 
 
-
 <div class="for_info_only">
-    <p><i>( Put some usage examples )</i></p>
     <p>
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio(3, 2) == 5
-checkio(5, 7) == 12
+checkio(15) == "Fizz Buzz"
+checkio(6) == "Fizz"
+checkio(5) == "Buzz"
+checkio(7) == "7"
     </pre>
 </div>
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    <i>(Here you can explain how it can be used in development and what is usage of this.)</i>
+    Here you can learn how to write the simplest function and work with if-else statements.
 </p>
