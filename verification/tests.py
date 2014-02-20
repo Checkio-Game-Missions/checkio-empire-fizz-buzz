@@ -29,51 +29,51 @@ TESTS = {
     ],
     "Extra": [
         {
-            "input": "45",
+            "input": 45,
             "answer": "Fizz Buzz"
         },
 
         {
-            "input": "46",
+            "input": 46,
             "answer": "46"
         },
 
         {
-            "input": "47",
+            "input": 47,
             "answer": "47"
         },
 
         {
-            "input": "48",
+            "input": 48,
             "answer": "Fizz"
         },
 
         {
-            "input": "49",
+            "input": 49,
             "answer": "49"
         },
 
         {
-            "input": "50",
+            "input": 50,
             "answer": "Buzz"
         },
         {
-            "input": "999",
+            "input": 999,
             "answer": "Fizz"
         },
 
         {
-            "input": "1000",
+            "input": 1000,
             "answer": "Buzz"
         },
 
         {
-            "input": "989",
+            "input": 989,
             "answer": "989"
         },
 
         {
-            "input": "990",
+            "input": 990,
             "answer": "Fizz Buzz"
         },
     ]
