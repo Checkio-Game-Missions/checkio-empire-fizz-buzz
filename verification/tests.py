@@ -27,6 +27,21 @@ TESTS = {
         },
 
     ],
+    "Edge": [
+        {
+            "input": 1000,
+            "answer": "Buzz"
+        },
+        {
+            "input": 1,
+            "answer": "1"
+        },
+        {
+            "input": 990,
+            "answer": "Fizz Buzz"
+        },
+
+    ],
     "Extra": [
         {
             "input": 45,
@@ -72,9 +87,6 @@ TESTS = {
             "answer": "989"
         },
 
-        {
-            "input": 990,
-            "answer": "Fizz Buzz"
-        },
+
     ]
 }
