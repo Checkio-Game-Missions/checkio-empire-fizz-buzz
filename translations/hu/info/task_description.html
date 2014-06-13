@@ -1,0 +1,63 @@
+<img class="for_info_only" title="juggler" src="{{MEDIA}}calculator.png" alt="juggler" width="300px"
+        style="float: left; margin-top: -5px; "/>
+
+<p>
+    A „Fizz buzz” egy szójáték, melynek segítségével megfogjuk tanítani robotjainak az oszási 
+    műveletre. Gyerünk és tanítsuk meg a számítógépet rá!
+</p>
+
+<p>
+    Egy függvényt kell írni itt, amely egy bozitív számot kap bemenetként és visszadja 
+    a következő kifejezést:<br>
+    <strong>"Fizz Buzz"</strong>, ha a szám osztható 3-ra és 5-re;<br>
+    <strong>"Fizz"</strong>, ha a szám osztható 3-ra;<br>
+    <strong>"Buzz"</strong>, ha a szám osztható 5-re; <br>
+    Egy <strong>számot</strong>, mint egy szöveget az összes többi esetre.<br>
+</p>
+
+<p>
+    <strong>Megjegzés: </strong> Ezt a feladatot könnyen meg lehet oldani a következő 
+    súgó segítségével:
+    {% if "python 2" in interpreter|lower %}
+    <a href="http://docs.python.org/2/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex">% operátor</a> и
+    <a href="http://docs.python.org/2/tutorial/introduction.html#strings">szövegfeldolgozás</a>.
+    {% else %}
+    <a href="http://docs.python.org/3/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-long-complex">% operátor</a> и
+    <a href="http://docs.python.org/3/tutorial/introduction.html#strings">szövegfeldolgozás</a>.
+    {% endif %}
+</p>
+
+<p>
+    <strong>Bemeneti adatok: </strong> egy egész szám (int).
+</p>
+
+<p>
+    <strong>Kimeneti adatok: </strong> a felet karakterláncként (str).
+</p>
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Példák:</strong>
+    </p>
+    <pre class="brush: python">
+checkio(15) == "Fizz Buzz"
+checkio(6) == "Fizz"
+checkio(5) == "Buzz"
+checkio(7) == "7"
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>Alkalmazása: </strong>
+    Ennek a feladatnak a segítségével el lehet sajátítani azt, hogy hogyan lehet egy egyszerű 
+    függvény megszerkeszteni és hogyan lehet használni az if-else utasításokat.
+</p>
+
+
+<p>
+    <strong>Előfeltételek:</strong>
+    0 &lt; number &le; 1000
+</p>
