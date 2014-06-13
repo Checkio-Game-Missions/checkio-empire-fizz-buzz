@@ -1,0 +1,61 @@
+<img class="for_info_only" title="juggler" src="{{MEDIA}}calculator.png" alt="juggler" width="300px"
+        style="float: left; margin-top: -5px; "/>
+
+<p>
+    "Fizz buzz" це гра зі словами, за допомогою якої ми будемо вчити наших роботів 
+    діленню. Давайте навчимо комп'ютер.
+</p>
+
+<p>
+    Ви повинні написати функцію, яка має параметром позитивне ціле число і повертає:<br>
+    <strong>"Fizz Buzz"</strong>, якщо число ділиться на 3 і 5;<br>
+    <strong>"Fizz"</strong>, якщо число ділиться на 3;<br>
+    <strong>"Buzz"</strong>, якщо число ділиться на 5; <br>
+    <strong>Число</strong>, як рядок для інших випадків.<br>
+</p>
+
+<p>
+    <strong>Зауваження: </strong> Ви легко зможете розв’язати цю задачу за допомогою 
+    наступних конструкцій:
+    {% if "python 2" in interpreter|lower %}
+    <a href="http://docs.python.org/2/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex">оператора % (ділення з остачею) </a> и
+    <a href="http://docs.python.org/2/tutorial/introduction.html#strings">перетворення рядків</a>.
+    {% else %}
+    <a href="http://docs.python.org/3/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-long-complex">оператора % (ділення з остачею) </a> и
+    <a href="http://docs.python.org/3/tutorial/introduction.html#strings">перетворення рядків</a>.
+    {% endif %}
+</p>
+
+<p>
+    <strong>Відні дані: </strong> Число, як ціле число (int).
+</p>
+
+<p>
+    <strong>Вихідні дані: </strong> Відповідь, як рядок (str).
+</p>
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Приклади:</strong>
+    </p>
+    <pre class="brush: python">
+checkio(15) == "Fizz Buzz"
+checkio(6) == "Fizz"
+checkio(5) == "Buzz"
+checkio(7) == "7"
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>Як це використовується: </strong>
+    Тут ви можете навчитися як написати найпростішу функцію і працювати з if-else.
+</p>
+
+
+<p>
+    <strong>Передумови:</strong><br>
+    0 &lt; number &le; 1000
+</p>
