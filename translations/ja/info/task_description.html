@@ -1,0 +1,60 @@
+﻿<img class="for_info_only" title="juggler" src="{{MEDIA}}calculator.png" alt="juggler" width="300px"
+        style="float: left; margin-top: -5px; "/>
+
+<p>
+	"Fizz buzz"はロボットに割り算について教えるために使う言葉ゲームです。
+	コンピュータを学びましょう。
+</p>
+
+<p>
+    あなたは正の整数を受け取って以下を返す関数を書かなくてはいけません:<br>
+    <strong>"Fizz Buzz"</strong> その数が3と5で割り切れるとき;<br>
+    <strong>"Fizz"</strong> その数が3で割り切れるとき;<br>
+    <strong>"Buzz"</strong> その数が5で割り切れるとき; <br>
+    <strong>その数</strong> それ以外の場合は文字列に変換<br>
+</p>
+
+<p>
+    <strong>ヒント(Tips): </strong> あなたは以下を使って簡単に解くことができます:
+    {% if "python 2" in interpreter|lower %}
+    <a href="http://docs.python.org/2/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex">% operator </a> and
+    <a href="http://docs.python.org/2/tutorial/introduction.html#strings">string conversion</a>.
+    {% else %}
+    <a href="http://docs.python.org/3/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-long-complex">% operator </a> and
+    <a href="http://docs.python.org/3/tutorial/introduction.html#strings">string conversion</a>.
+    {% endif %}
+</p>
+
+<p>
+    <strong>入力: </strong> ある数、整数
+</p>
+
+<p>
+    <strong>出力: </strong> 答え、文字列
+</p>
+
+
+<div class="for_info_only">
+    <p>
+        <strong>例:</strong>
+    </p>
+    <pre class="brush: python">
+checkio(15) == "Fizz Buzz"
+checkio(6) == "Fizz"
+checkio(5) == "Buzz"
+checkio(7) == "7"
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>どのように使われるか: </strong>
+	ここであなたはもっとも単純な関数の書き方とif-elseステートメントの動かし方を学ぶことができます。
+</p>
+
+
+<p>
+    <strong>事前条件:</strong>
+    0 &lt; number &le; 1000
+</p>
