@@ -1,0 +1,59 @@
+<img class="for_info_only" title="juggler" src="{{MEDIA}}calculator.png" alt="juggler" width="300px"
+        style="float: left; margin-top: -5px; "/>
+
+<p>
+    "Fizz Buzz" est un jeu de lettres que nous allons utilis&eacute; pour enseigner la division aux robots. On va apprendre l'informatique.
+</p>
+
+<p>
+    Vous devez &eacute;crire une fonction prenant en argument un entier positif et retournant :<br>
+    <strong>"Fizz Buzz"</strong> si le nombre est divisible par 3 et 5 ;<br>
+    <strong>"Fizz"</strong> si le nombre est divisible par 3 ;<br>
+    <strong>"Buzz"</strong> si le nombre est divisible par 5 ; <br>
+    <strong>Le nombre</strong> en tant que chaine de caract&egrave;res pour les autres cas.<br>
+</p>
+
+<p>
+    <strong>Conseils : </strong> Vous pouvez facilement r&eacute;soudre cette t&acirc;che avec :
+    {% if "python 2" in interpreter|lower %}
+    <a href="http://docs.python.org/2/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex">l'op&eacute;rateur %</a> et
+    <a href="http://docs.python.org/2/tutorial/introduction.html#strings">les conversions de chaines de caract&egrave;res</a>.
+    {% else %}
+    <a href="http://docs.python.org/3/tutorial/controlflow.html#if-statements">if-else</a>,
+    <a href="http://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-long-complex">l'op&eacute;rateur %</a> et
+    <a href="http://docs.python.org/3/tutorial/introduction.html#strings">les conversions de chaines de caract&egrave;res</a>.
+    {% endif %}
+</p>
+
+<p>
+    <strong>Entr&eacute;e : </strong> Un nombre en tant qu'entier.
+</p>
+
+<p>
+    <strong>Sortie : </strong> La r&eacute;ponse en tant que chaine de caract&egrave;res.
+</p>
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Exemple : </strong>
+    </p>
+    <pre class="brush: python">
+checkio(15) == "Fizz Buzz"
+checkio(6) == "Fizz"
+checkio(5) == "Buzz"
+checkio(7) == "7"
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>&Agrave; quoi cela sert : </strong>
+    Ici vous pouvez apprendre comment &eacute;crire une fonction tr&egrave;s simple et utiliser la structure if-else.
+</p>
+
+
+<p>
+    <strong>Pr&eacute;condition : </strong>
+    0 &lt; nombre &le; 1000
+</p>
