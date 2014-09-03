@@ -1,0 +1,77 @@
+<body data-author="bryukh">
+<div class="question-answer">
+    <div class="question">
+        I have no idea how to start solving this mission
+    </div>
+    <div class="answer">
+        To check various cases, use
+        <a href="http://docs.python.org/3/tutorial/controlflow.html#if-statements">if-else</a> statements.
+        <pre>
+if condition:
+    do_something()
+else if another_condition:
+    do_something2()
+else:
+    do_something3()
+</pre>
+
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        I need some help to proceed with the mission
+    </div>
+    <div class="answer">
+        You can check if a number is divisible with
+        <a href="http://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-long-complex">the % operator</a>.
+        Just do "if X % n == 0:" then X is divisible by n.
+        That sid, it's more pythonic to write "if not X % n:"
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        I am gone half way through. Need help!
+    </div>
+    <div class="answer">
+        If you need the string representation of a number, the use <a
+            href="http://docs.python.org/3/tutorial/introduction.html#strings">string conversion</a>.
+        <pre>
+str(53) == "53"
+        </pre>
+
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        I am stuck. I need a small hint.
+    </div>
+    <div class="answer">
+        You should check divisibility from specific to general. For example, is it divisible by 15:
+<pre>
+if not number % 15:
+    return "FizzBuzz"
+else if not number % 5:
+    ...
+    ...
+</pre>
+
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        I tried all I could. Nothing works. SOS
+    </div>
+    <div class="answer">
+        Don't forget - your function should return the result, not print it.
+<pre>
+def checkio(number):
+    ...
+    ...
+    return str(number)
+</pre>
+
+    </div>
+</div>
+
+
+</body>
