@@ -1,4 +1,4 @@
-checkio-task-fizz-buzz
+fizz-buzz
 ======================
 
-Checkio Task "Fizz Buzz"
+Crystal Farm 2.1 "Fizz Buzz"
