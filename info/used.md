@@ -1,3 +1,3 @@
 **How it is used:**
 
-It's useful
+Here you can learn how to write the simplest function and work with if-else statements.

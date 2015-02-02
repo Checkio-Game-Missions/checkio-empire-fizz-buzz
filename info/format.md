@@ -1,3 +1,2 @@
-**Input:** Something as an integer. 
-
+**Input:** A number as an integer.
 **Output:** The answer as a string.
