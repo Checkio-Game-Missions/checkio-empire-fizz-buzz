@@ -1,2 +1,2 @@
-We need robots to sort crystals by 3 or 5 or divisible of them number of edges.
- For this we will use ancient human word game "Fizz buzz".
+To get them ready for storage, we need the worker-bots to sort crystals by 3 or 5 or divide them by the number of edges. 
+To make things easier, we will base our program on the ancient human word game "Fizz buzz". 
