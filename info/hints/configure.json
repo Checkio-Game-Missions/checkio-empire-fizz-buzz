@@ -1,6 +1,6 @@
 {
-//	"base": {
-//		"file": "absolute-sorting-hints.md",
-//		"author": "bryukh"
-//	}
+	"base": {
+		"file": "fizz-buzz-hints.md",
+		"author": "bryukh"
+	}
 }
