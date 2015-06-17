@@ -10,3 +10,7 @@ class Referee(RefereeBase):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "fizz_buzz"
+
+    FUNCTION_NAMES = {
+        "js_node": "fizzBuzz"
+    }
